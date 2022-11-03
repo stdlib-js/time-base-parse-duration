@@ -31,7 +31,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import parseDuration from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-base-parse-duration@deno/mod.js';
+import parseDuration from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-base-parse-duration@v0.0.1-deno/mod.js';
 ```
 
 #### parseDuration
@@ -91,7 +91,7 @@ The returned object has the following properties:
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import parseDuration from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-base-parse-duration@deno/mod.js';
+import parseDuration from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-base-parse-duration@v0.0.1-deno/mod.js';
 
 var obj = parseDuration( '1m3s10ms' );
 // returns { 'days': 0, 'hours': 0, 'minutes': 1, 'seconds': 3, 'milliseconds': 10 }
