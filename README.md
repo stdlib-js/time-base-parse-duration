@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import parseDuration from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-base-parse-duration@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/time-base-parse-duration/tags). For example,
+
+```javascript
 import parseDuration from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-base-parse-duration@v0.2.1-deno/mod.js';
 ```
 
@@ -102,7 +107,7 @@ The returned object has the following properties:
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import parseDuration from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-base-parse-duration@v0.2.1-deno/mod.js';
+import parseDuration from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-base-parse-duration@deno/mod.js';
 
 var obj = parseDuration( '1m3s10ms' );
 // returns { 'days': 0, 'hours': 0, 'minutes': 1, 'seconds': 3, 'milliseconds': 10 }
