@@ -37,7 +37,8 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/string-base-lowercase": "^0.3.1"
+    "@stdlib/string-base-lowercase": "^0.3.1",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.0"
   },
   "devDependencies": {
     "@stdlib/assert-is-object": "^0.2.0",
