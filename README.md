@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import parseDuration from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-base-parse-duration@esm/index.mjs';
+import parseDuration from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-base-parse-duration@v0.2.2-esm/index.mjs';
 ```
 
 #### parseDuration
@@ -107,7 +107,7 @@ The returned object has the following properties:
 <body>
 <script type="module">
 
-import parseDuration from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-base-parse-duration@esm/index.mjs';
+import parseDuration from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-base-parse-duration@v0.2.2-esm/index.mjs';
 
 var obj = parseDuration( '1m3s10ms' );
 // returns { 'days': 0, 'hours': 0, 'minutes': 1, 'seconds': 3, 'milliseconds': 10 }
