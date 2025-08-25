@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-12)
+## Unreleased (2025-08-25)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`2418246`](https://github.com/stdlib-js/stdlib/commit/241824670528518e87667d83512dab297367e43d) - **docs:** fix lint errors in example code _(by Philipp Burckhardt)_
 -   [`6e9f42e`](https://github.com/stdlib-js/stdlib/commit/6e9f42e4c912485d9896eaa16c88b70fd3688e97) - **docs:** harmonize list formatting in repl.txt and ensure starting newline _(by Philipp Burckhardt)_
 
 </details>
