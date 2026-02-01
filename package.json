@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/time-base-parse-duration",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Parse a duration string into an object.",
   "license": "Apache-2.0",
   "author": {
